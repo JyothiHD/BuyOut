@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29262" started-at="2020-04-08T22:15:16 IST" finished-at="2020-04-08T22:15:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29262" started-at="2020-04-08T22:15:16 IST" finished-at="2020-04-08T22:15:45 IST">
+      <class name="regressionscripts.Validlogin_FB">
+        <test-method status="PASS" signature="setup()[pri:0, instance:regressionscripts.Validlogin_FB@23faf8f2]" name="setup" is-config="true" duration-ms="245" started-at="2020-04-08T22:15:15 IST" finished-at="2020-04-08T22:15:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openAppn()[pri:0, instance:regressionscripts.Validlogin_FB@23faf8f2]" name="openAppn" is-config="true" duration-ms="11448" started-at="2020-04-08T22:15:16 IST" finished-at="2020-04-08T22:15:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppn -->
+        <test-method status="PASS" signature="validlogin_FB()[pri:0, instance:regressionscripts.Validlogin_FB@23faf8f2]" name="validlogin_FB" duration-ms="16616" started-at="2020-04-08T22:15:27 IST" finished-at="2020-04-08T22:15:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[Title displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validlogin_FB -->
+        <test-method status="PASS" signature="closeAppn(org.testng.ITestResult)[pri:0, instance:regressionscripts.Validlogin_FB@23faf8f2]" name="closeAppn" is-config="true" duration-ms="1145" started-at="2020-04-08T22:15:44 IST" finished-at="2020-04-08T22:15:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validlogin_FB status=SUCCESS method=Validlogin_FB.validlogin_FB()[pri:0, instance:regressionscripts.Validlogin_FB@23faf8f2] output=element clicked]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:regressionscripts.Validlogin_FB@23faf8f2]" name="tearDown" is-config="true" duration-ms="994" started-at="2020-04-08T22:15:45 IST" finished-at="2020-04-08T22:15:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regressionscripts.Validlogin_FB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
